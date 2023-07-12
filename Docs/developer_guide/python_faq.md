@@ -251,4 +251,4 @@ In our example:
 
 Any Python packages can be installed in Slicer's built-in Python environment. A convenience function `slicer.util.pip_install` can be used as shown in the [example in the Script Repository](script_repository.md#install-a-python-package).
 
-Important: Do not install any packages in the global scope (outside of all classes and functions) or in the module class constructor, as it can very significantly slow down the application startup and it may even preven the module from loading.
+Important: Do not install any packages in the global scope (outside of all classes and functions) or in the module class constructor, as it can very significantly slow down the application startup and it may even prevent the module from loading.
